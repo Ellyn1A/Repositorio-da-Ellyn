@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>Meu portfólio</title>
+</head>
+
+<body>
+  <header class="container text">
+    <img src="img/avatar-perfil.png" alt="avatar da Éllyn" class="rounded-circle" width="150" heigth="150"
+      srcset="">
+    <p class="lead">Eu sou Éllyn</p>
+      <h1> Eu estudo Progamação</h1>
+      <p>Sou aluna da escola E.E. Profª Maria de Lourdes Stipp Steffen, estou cursando atualmente o 2º ano do ensino
+        médio. Estudo programação no Alura.
+      </p>
+      <p>Minhas habilidades</p>
+      <div>
+        <p class="badge bg-secondary">HTML</p>
+        <p class="badge bg-secondary">CSS</p>
+        <p class="badge bg-secondary">JavaScript</p>
+      </div>
+  </header>
+  <main class="container mt-5">
+    <h2>Meus Projetos</h2>
+    <div class="row">
+      <!-- Aqui está o Projeto 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto-1.jpg" class="card-img-top" alt="imagem do projeto 1" />
+          <div class="card-body">
+            <h5 class="card-title">Projeto 1</h5>
+            <p class="card-text">
+              descriçao clara e objetiva do Projeto 1
+            </p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o meu
+              Projeto </button>
+          </div>
+        </div>
+      </div>
+      <!-- Aqui está o Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto-2.jpg" class="card-img-top" alt="imagem do projeto 1" />
+          <div class="card-body">
+            <h5 class="card-title">Projeto 2</h5>
+            <p class="card-text">
+              descriçao clara e objetiva do Projeto 2
+            </p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o meu
+              Projeto </button>
+          </div>
+        </div>
+      </div>
+      <!-- Aqui está o Projeto 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto-3.png" class="card-img-top" alt="imagem do projeto 1" />
+          <div class="card-body">
+            <h5 class="card-title">Projeto 3</h5>
+            <p class="card-text">
+              descriçao clara e objetiva do Projeto 3
+            </p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o meu
+              Projeto </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal 1 -->
+  <div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Projeto 1</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            O projeto é um jogo 2D de corrida de carros, usamos as teclas para que os carros se movam.
+          </p>
+          <img src="img/projeto-1.jpg" class="img-fluid w-100" alt="imagem representativa do projeto 1">
+        </div>
+        <div class="modal-footer">
+          <a href="https://editor.p5js.org/EllynS1A/full/Vcf_HyByB"> Ver projeto</a>
+          <a href="https://editor.p5js.org/EllynS1A/sketches/Vcf_HyByB">Visualizar codígos do projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Projeto 2</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            O jogo é interativo, você joga arrastanto o molse de um lado para o outro, assim descobrirá a palavra que vai se formar.
+          </p>
+          <img src="img/projeto-2.jpg" class="img-fluid w-100" alt="imagem representativa do projeto 1">
+        </div>
+        <div class="modal-footer">
+          <a href="https://editor.p5js.org/EllynS1A/full/cAYoh2vSg"> Ver projeto</a>
+          <a href="https://editor.p5js.org/EllynS1A/sketches/cAYoh2vSg">Visualizar codígos do projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Projeto 3</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Algumas bolinhas iram aparecer na tela, o que acontecerá se clicarmos na tela?, várias bolinhas coloridas!.
+          </p>
+          <img src="img/projeto-3.png" class="img-fluid w-100" alt="imagem representativa do projeto 1">
+        </div>
+        <div class="modal-footer">
+          <a href="https://editor.p5js.org/EllynS1A/full/nHPvaxsVbn"> Ver projeto</a>
+          <a href="https://editor.p5js.org/EllynS1A/sketches/nHPvaxsVbn">Visualizar codígos do projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container py-5 text-center">
+    <h2> Entre em contato</h2>
+    <div>
+      <i class="bi bi-github"></i>
+      <a href="https://github.com/Ellyn1A">Github</a>
+      <i class="bi bi-envelope-open-fill"></i>
+      <a href="suprianoellyn7@gmail.com">E-mail</a>
+    </div>
+    <p class="my-5 text-center">© Copyright 2025. Produzido por Éllyn Supriano de Oliveira</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

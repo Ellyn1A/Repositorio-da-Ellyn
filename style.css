@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+:root {
+    --cor-principal: #3b5728e6;
+    --cor-secundaria: #132d4a;
+    --cor-destaque: #6c2e27;
+}
+
+body {
+    font-family: 'Abril Fatface';
+    background: linear-gradient(135deg, #5696df, #e76456)
+}
+
+h1,
+h2,
+h3 {
+    color: bisque(--cor-segundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: antiquewhite(--cor-principal);
+}
+
+footer a:hover {
+    color: azure(--cor-destaque);
+}
+.my-5{
+    color: #3b5728e6;
+}
